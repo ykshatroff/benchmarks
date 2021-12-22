@@ -47,7 +47,7 @@ def no_duplicates_set_key_none(iterable, unique_key=None):
     _unique_keys = set()
     _without_duplicates = []
     for item in iterable:
-        key_x = unique_key(item) if unique_key else item
+        key_x = unique_key(item) if unique_key is not None else item
         if key_x not in _unique_keys:
             _without_duplicates.append(item)
             _unique_keys.add(key_x)
