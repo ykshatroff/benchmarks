@@ -1,0 +1,225 @@
+--- TEST_CASE(unique=1, duplicates=0, repeat=0): NUMBERS ---
+no_duplicates_list: 0.0030255820020101964
+no_duplicates_set: 0.004666619002819061
+no_duplicates_set_key: 0.004337338003097102
+no_duplicates_set_key_none: 0.0035921010130550712
+--- TEST_CASE(unique=1, duplicates=0, repeat=0): STRINGS_1 ---
+no_duplicates_list: 0.00233753101201728
+no_duplicates_set: 0.004249656019965187
+no_duplicates_set_key: 0.003885574988089502
+no_duplicates_set_key_none: 0.0032208430056925863
+--- TEST_CASE(unique=1, duplicates=0, repeat=0): STRINGS_2 ---
+no_duplicates_list: 0.0020616769907064736
+no_duplicates_set: 0.00324070401256904
+no_duplicates_set_key: 0.003668001008918509
+no_duplicates_set_key_none: 0.003726886003278196
+--- TEST_CASE(unique=1, duplicates=1, repeat=1): NUMBERS ---
+no_duplicates_list: 0.004618849023245275
+no_duplicates_set: 0.006210249004652724
+no_duplicates_set_key: 0.005650189006701112
+no_duplicates_set_key_none: 0.00408689901814796
+--- TEST_CASE(unique=1, duplicates=1, repeat=1): STRINGS_1 ---
+no_duplicates_list: 0.00245339801767841
+no_duplicates_set: 0.004503810021560639
+no_duplicates_set_key: 0.005018366005970165
+no_duplicates_set_key_none: 0.004086672008270398
+--- TEST_CASE(unique=1, duplicates=1, repeat=1): STRINGS_2 ---
+no_duplicates_list: 0.0027024970040656626
+no_duplicates_set: 0.004478577000554651
+no_duplicates_set_key: 0.005192869022721425
+no_duplicates_set_key_none: 0.0038279519940260798
+--- TEST_CASE(unique=1, duplicates=1, repeat=10): NUMBERS ---
+no_duplicates_list: 0.006047078990377486
+no_duplicates_set: 0.006429619010305032
+no_duplicates_set_key: 0.01221067100414075
+no_duplicates_set_key_none: 0.00752476099296473
+--- TEST_CASE(unique=1, duplicates=1, repeat=10): STRINGS_1 ---
+no_duplicates_list: 0.005128688004333526
+no_duplicates_set: 0.005869815999176353
+no_duplicates_set_key: 0.011897664022399113
+no_duplicates_set_key_none: 0.007152359990868717
+--- TEST_CASE(unique=1, duplicates=1, repeat=10): STRINGS_2 ---
+no_duplicates_list: 0.00545339600648731
+no_duplicates_set: 0.005754653015173972
+no_duplicates_set_key: 0.011015930998837575
+no_duplicates_set_key_none: 0.007945276011014357
+--- TEST_CASE(unique=1, duplicates=1, repeat=100): NUMBERS ---
+no_duplicates_list: 0.03126512901508249
+no_duplicates_set: 0.025944869994418696
+no_duplicates_set_key: 0.07590626200544648
+no_duplicates_set_key_none: 0.03585620000376366
+--- TEST_CASE(unique=1, duplicates=1, repeat=100): STRINGS_1 ---
+no_duplicates_list: 0.029748650995315984
+no_duplicates_set: 0.02372432398260571
+no_duplicates_set_key: 0.07191759601118974
+no_duplicates_set_key_none: 0.034258319006767124
+--- TEST_CASE(unique=1, duplicates=1, repeat=100): STRINGS_2 ---
+no_duplicates_list: 0.03392043098574504
+no_duplicates_set: 0.023914586985483766
+no_duplicates_set_key: 0.0729499819863122
+no_duplicates_set_key_none: 0.033177384990267456
+--- TEST_CASE(unique=5, duplicates=0, repeat=0): NUMBERS ---
+no_duplicates_list: 0.005644347984343767
+no_duplicates_set: 0.00663832199643366
+no_duplicates_set_key: 0.009726598975248635
+no_duplicates_set_key_none: 0.007690579979680479
+--- TEST_CASE(unique=5, duplicates=0, repeat=0): STRINGS_1 ---
+no_duplicates_list: 0.00588036299450323
+no_duplicates_set: 0.007052108994685113
+no_duplicates_set_key: 0.010420345002785325
+no_duplicates_set_key_none: 0.007851573987863958
+--- TEST_CASE(unique=5, duplicates=0, repeat=0): STRINGS_2 ---
+no_duplicates_list: 0.005726686009438708
+no_duplicates_set: 0.007968616992002353
+no_duplicates_set_key: 0.01026068499777466
+no_duplicates_set_key_none: 0.00865679798880592
+--- TEST_CASE(unique=5, duplicates=1, repeat=1): NUMBERS ---
+no_duplicates_list: 0.006563113012816757
+no_duplicates_set: 0.008318054984556511
+no_duplicates_set_key: 0.011693813983583823
+no_duplicates_set_key_none: 0.008846420998452231
+--- TEST_CASE(unique=5, duplicates=1, repeat=1): STRINGS_1 ---
+no_duplicates_list: 0.00701627999660559
+no_duplicates_set: 0.008076330996118486
+no_duplicates_set_key: 0.012008830002741888
+no_duplicates_set_key_none: 0.008948925998993218
+--- TEST_CASE(unique=5, duplicates=1, repeat=1): STRINGS_2 ---
+no_duplicates_list: 0.007214276003651321
+no_duplicates_set: 0.008429155015619472
+no_duplicates_set_key: 0.012218388001201674
+no_duplicates_set_key_none: 0.00965488498331979
+--- TEST_CASE(unique=5, duplicates=1, repeat=10): NUMBERS ---
+no_duplicates_list: 0.01282745398930274
+no_duplicates_set: 0.010593140992568806
+no_duplicates_set_key: 0.01817297498928383
+no_duplicates_set_key_none: 0.012889284000266343
+--- TEST_CASE(unique=5, duplicates=1, repeat=10): STRINGS_1 ---
+no_duplicates_list: 0.012882832990726456
+no_duplicates_set: 0.010368830990046263
+no_duplicates_set_key: 0.01803654499235563
+no_duplicates_set_key_none: 0.011568288988200948
+--- TEST_CASE(unique=5, duplicates=1, repeat=10): STRINGS_2 ---
+no_duplicates_list: 0.015257319988450035
+no_duplicates_set: 0.01091712899506092
+no_duplicates_set_key: 0.018615501991007477
+no_duplicates_set_key_none: 0.012297030014451593
+--- TEST_CASE(unique=5, duplicates=5, repeat=10): NUMBERS ---
+no_duplicates_list: 0.061655328987399116
+no_duplicates_set: 0.023054975987179205
+no_duplicates_set_key: 0.05340930901002139
+no_duplicates_set_key_none: 0.028123811003752053
+--- TEST_CASE(unique=5, duplicates=5, repeat=10): STRINGS_1 ---
+no_duplicates_list: 0.06153092498425394
+no_duplicates_set: 0.022181290987646207
+no_duplicates_set_key: 0.0511398529924918
+no_duplicates_set_key_none: 0.02812698599882424
+--- TEST_CASE(unique=5, duplicates=5, repeat=10): STRINGS_2 ---
+no_duplicates_list: 0.07150845098658465
+no_duplicates_set: 0.02209554600995034
+no_duplicates_set_key: 0.05148471600841731
+no_duplicates_set_key_none: 0.02908162699895911
+--- TEST_CASE(unique=10, duplicates=0, repeat=0): NUMBERS ---
+no_duplicates_list: 0.01266502300859429
+no_duplicates_set: 0.012204457016196102
+no_duplicates_set_key: 0.018188403017120436
+no_duplicates_set_key_none: 0.013534901983803138
+--- TEST_CASE(unique=10, duplicates=0, repeat=0): STRINGS_1 ---
+no_duplicates_list: 0.0150742529949639
+no_duplicates_set: 0.011984550976194441
+no_duplicates_set_key: 0.01816740501089953
+no_duplicates_set_key_none: 0.013395232992479578
+--- TEST_CASE(unique=10, duplicates=0, repeat=0): STRINGS_2 ---
+no_duplicates_list: 0.01528945000609383
+no_duplicates_set: 0.011864134983625263
+no_duplicates_set_key: 0.017688020976493135
+no_duplicates_set_key_none: 0.01330018401495181
+--- TEST_CASE(unique=10, duplicates=1, repeat=10): NUMBERS ---
+no_duplicates_list: 0.025521178991766647
+no_duplicates_set: 0.015618336998159066
+no_duplicates_set_key: 0.026667191996239126
+no_duplicates_set_key_none: 0.017944169987458736
+--- TEST_CASE(unique=10, duplicates=1, repeat=10): STRINGS_1 ---
+no_duplicates_list: 0.02785188698908314
+no_duplicates_set: 0.01576800798648037
+no_duplicates_set_key: 0.02584795601433143
+no_duplicates_set_key_none: 0.018044080992694944
+--- TEST_CASE(unique=10, duplicates=1, repeat=10): STRINGS_2 ---
+no_duplicates_list: 0.03213820600649342
+no_duplicates_set: 0.015145091019803658
+no_duplicates_set_key: 0.02798987299320288
+no_duplicates_set_key_none: 0.018265491002239287
+--- TEST_CASE(unique=10, duplicates=10, repeat=1): NUMBERS ---
+no_duplicates_list: 0.03574463599943556
+no_duplicates_set: 0.024376319983275607
+no_duplicates_set_key: 0.037088710989337415
+no_duplicates_set_key_none: 0.026744849019451067
+--- TEST_CASE(unique=10, duplicates=10, repeat=1): STRINGS_1 ---
+no_duplicates_list: 0.03759963600896299
+no_duplicates_set: 0.02293007099069655
+no_duplicates_set_key: 0.034701319003943354
+no_duplicates_set_key_none: 0.025580556015484035
+--- TEST_CASE(unique=10, duplicates=10, repeat=1): STRINGS_2 ---
+no_duplicates_list: 0.04011369700310752
+no_duplicates_set: 0.024545174004742876
+no_duplicates_set_key: 0.03454899397911504
+no_duplicates_set_key_none: 0.025963050982682034
+--- TEST_CASE(unique=10, duplicates=10, repeat=10): NUMBERS ---
+no_duplicates_list: 0.2019662839884404
+no_duplicates_set: 0.04721024798345752
+no_duplicates_set_key: 0.10397312199347652
+no_duplicates_set_key_none: 0.06050130698713474
+--- TEST_CASE(unique=10, duplicates=10, repeat=10): STRINGS_1 ---
+no_duplicates_list: 0.22442895598942414
+no_duplicates_set: 0.04448414102080278
+no_duplicates_set_key: 0.10129445901839063
+no_duplicates_set_key_none: 0.05368730699410662
+--- TEST_CASE(unique=10, duplicates=10, repeat=10): STRINGS_2 ---
+no_duplicates_list: 0.25057981998543255
+no_duplicates_set: 0.04419095398043282
+no_duplicates_set_key: 0.10378285899059847
+no_duplicates_set_key_none: 0.05928858500556089
+--- TEST_CASE(unique=100, duplicates=0, repeat=0): NUMBERS ---
+no_duplicates_list: 0.6016491379996296
+no_duplicates_set: 0.10947563400259241
+no_duplicates_set_key: 0.15905775400460698
+no_duplicates_set_key_none: 0.12103442201623693
+--- TEST_CASE(unique=100, duplicates=0, repeat=0): STRINGS_1 ---
+no_duplicates_list: 0.729760661983164
+no_duplicates_set: 0.10685224700137042
+no_duplicates_set_key: 0.15880005300277844
+no_duplicates_set_key_none: 0.11586105197784491
+--- TEST_CASE(unique=100, duplicates=0, repeat=0): STRINGS_2 ---
+no_duplicates_list: 0.7906878729991149
+no_duplicates_set: 0.10822732897941023
+no_duplicates_set_key: 0.16155462199822068
+no_duplicates_set_key_none: 0.11604479199741036
+--- TEST_CASE(unique=100, duplicates=10, repeat=10): NUMBERS ---
+no_duplicates_list: 1.7296242049778812
+no_duplicates_set: 0.13419772099587135
+no_duplicates_set_key: 0.23357576900161803
+no_duplicates_set_key_none: 0.15313709501060657
+--- TEST_CASE(unique=100, duplicates=10, repeat=10): STRINGS_1 ---
+no_duplicates_list: 1.833071719011059
+no_duplicates_set: 0.1380830259877257
+no_duplicates_set_key: 0.2385041970119346
+no_duplicates_set_key_none: 0.1667183449899312
+--- TEST_CASE(unique=100, duplicates=10, repeat=10): STRINGS_2 ---
+no_duplicates_list: 2.2942561590170953
+no_duplicates_set: 0.13782478601206094
+no_duplicates_set_key: 0.24896517099114135
+no_duplicates_set_key_none: 0.1572421460004989
+--- TEST_CASE(unique=100, duplicates=10, repeat=100): NUMBERS ---
+no_duplicates_list: 12.198808988992823
+no_duplicates_set: 0.3403837929945439
+no_duplicates_set_key: 0.8721658430004027
+no_duplicates_set_key_none: 0.4376883170043584
+--- TEST_CASE(unique=100, duplicates=10, repeat=100): STRINGS_1 ---
+no_duplicates_list: 12.45951093599433
+no_duplicates_set: 0.33073147598770447
+no_duplicates_set_key: 0.8861853939888533
+no_duplicates_set_key_none: 0.45773910998832434
+--- TEST_CASE(unique=100, duplicates=10, repeat=100): STRINGS_2 ---
+no_duplicates_list: 16.754296751023503
+no_duplicates_set: 0.35579253899049945
+no_duplicates_set_key: 0.9522212109877728
+no_duplicates_set_key_none: 0.47030900401296094
